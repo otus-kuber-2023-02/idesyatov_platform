@@ -87,7 +87,7 @@ kubectl port-forward --address 0.0.0.0 pod/frontend 8080:8080
 - Перейти по ссылке http://localhost:8080
 
 ## PR checklist:
-- [ ] Выставлен label с темой домашнего задания
+- [X] Выставлен label с темой домашнего задания
 </details>
 
 # kubernetes-next
