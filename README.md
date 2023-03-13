@@ -1,7 +1,7 @@
 # idesyatov_platform
 idesyatov Platform repository
 
-# kubernetes-prepare
+## [kubernetes-prepare](.github)
 <details>
 <summary>Подробнее ...</summary>
 
@@ -24,7 +24,7 @@ idesyatov Platform repository
     + подключение k9s-cli
 </details>
 
-# kubernetes-intro
+## [kubernetes-intro](kubernetes-intro)
 <details>
 <summary>Подробнее ...</summary>
 
@@ -90,11 +90,48 @@ kubectl port-forward --address 0.0.0.0 pod/frontend 8080:8080
 - [X] Выставлен label с темой домашнего задания
 </details>
 
-# kubernetes-next
+## [kubernetes-controllers](kubernetes-controllers)
 <details>
 <summary>Подробнее ...</summary>
 
 # Выполнено ДЗ № 3
+
+- [X] Основное ДЗ
+- [X] Задание со *
+
+## В процессе сделано:
+- Изучены ReplicaSet, Deployment, DaemonSet
+- Написаны и протестированы манифесты для работы с данными сущностями
+
+## Как запустить проект:
+- Задания для данного занятия описаны отдельными манифестами в директорий **./kubernetes-controllers** для запуска добавить имя манифеста:
+```sh
+kubectl apply -f ./kubernetes-controllers/[manifest_name.yaml]
+```
+- Пример запуска и проброса порта:
+```sh
+kubectl apply -f frontend-deployment.yaml
+
+kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
+```
+
+## Как проверить работоспособность:
+- Перейти по ссылке http://localhost:8080/
+
+- Перейти по ссылке http://localhost:8080/_healthz
+
+- Перейти по ссылке http://localhost:9100/metrics
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-next-lesson](./)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
 
 - [ ] Основное ДЗ
 - [ ] Задание со *
