@@ -127,6 +127,34 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 </details>
 
+## [kubernetes-networks](./)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [X] Задание со *
+
+## В процессе сделано:
+- добавлены probe к сервису web
+- создан новый деплоймент для web
+- испробованы разные стратегии обновления подов
+- создание сервисов с clusterip, loadbalancer
+(установка metallb из задания падает с failing to pull image, нужно менять регистри с docker.io на quay.io)
+- сделал доступным coredns через metallb балансер
+- запущен ingress-controller
+## Как запустить проект:
+- kubectl -f apply kubernetes-networks/web-deploy.yaml
+
+## Как проверить работоспособность:
+- Например, перейти по ссылке http://localhost:8080
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
 ## [kubernetes-next-lesson](./)
 <details>
 <summary>Подробнее ...</summary>
