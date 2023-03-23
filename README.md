@@ -127,11 +127,11 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 </details>
 
-## [kubernetes-networks](./)
+## [kubernetes-networks](kubernetes-networks)
 <details>
 <summary>Подробнее ...</summary>
 
-# Выполнено ДЗ №
+# Выполнено ДЗ № 4
 
 - [X] Основное ДЗ
 - [X] Задание со *
@@ -155,11 +155,11 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 </details>
 
-## [kubernetes-volumes](./)
+## [kubernetes-volumes](kubernetes-volumes)
 <details>
 <summary>Подробнее ...</summary>
 
-# Выполнено ДЗ №
+# Выполнено ДЗ № 5
 
 - [X] Основное ДЗ
 - [X] Задание со *
