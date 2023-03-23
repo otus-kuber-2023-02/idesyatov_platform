@@ -155,6 +155,35 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 </details>
 
+## [kubernetes-volumes](./)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [X] Задание со *
+
+## В процессе сделано:
+- создан statefulset
+- создан pvc/pv
+- создан secret используемый в pod
+
+## Как запустить проект:
+- kubectl apply -f ./kubernetes-volumes/
+
+## Как проверить работоспособность:
+- kubectl get statefulsets
+- kubectl get pods
+- kubectl get pvc
+- kubectl get pv
+- kubectl exec minio-0 env
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
 ## [kubernetes-next-lesson](./)
 <details>
 <summary>Подробнее ...</summary>
