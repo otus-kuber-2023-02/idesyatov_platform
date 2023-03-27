@@ -127,11 +127,11 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 </details>
 
-## [kubernetes-networks](./)
+## [kubernetes-networks](kubernetes-networks)
 <details>
 <summary>Подробнее ...</summary>
 
-# Выполнено ДЗ №
+# Выполнено ДЗ № 4
 
 - [X] Основное ДЗ
 - [X] Задание со *
@@ -149,6 +149,64 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 ## Как проверить работоспособность:
 - Например, перейти по ссылке http://localhost:8080
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-volumes](kubernetes-volumes)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ № 5
+
+- [X] Основное ДЗ
+- [X] Задание со *
+
+## В процессе сделано:
+- создан statefulset
+- создан pvc/pv
+- создан secret используемый в pod
+
+## Как запустить проект:
+- kubectl apply -f ./kubernetes-volumes/
+
+## Как проверить работоспособность:
+- kubectl get statefulsets
+- kubectl get pods
+- kubectl get pvc
+- kubectl get pv
+- kubectl exec minio-0 env
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-security](kubernetes-security)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ № 6
+
+- [X] Основное ДЗ
+- [X] Задание со *
+
+## В процессе сделано:
+- написаны манифесты для создания service account
+- написали манифесты для создания и назначения ролей RoleBinding / ClusterRole
+
+## Как запустить проект:
+- kubectl apply -f ./kubernetes-security/task01/
+- kubectl apply -f ./kubernetes-security/task02/
+- kubectl apply -f ./kubernetes-security/task03/
+
+## Как проверить работоспособность:
+- kubectl get serviceaccounts -n prometheus -o yaml
+- kubectl get serviceaccounts -n dev -o yaml
+- kubectl get rolebindings -n dev -o yaml
+
 
 ## PR checklist:
 - [X] Выставлен label с темой домашнего задания
