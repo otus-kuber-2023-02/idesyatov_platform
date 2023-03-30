@@ -213,7 +213,7 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 </details>
 
-## [kubernetes-templating](./)
+## [kubernetes-templating](./kubernetes-templating)
 <details>
 <summary>Подробнее ...</summary>
 
