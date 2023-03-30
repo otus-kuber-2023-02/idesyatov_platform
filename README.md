@@ -213,6 +213,35 @@ kubectl port-forward --address 0.0.0.0 deployment/frontend 8080:8080
 
 </details>
 
+## [kubernetes-templating](./)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ № 7
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- установка helm
+- установка из chart
+- создание собственных chart
+
+## Как запустить проект:
+- ./kubernetes-templating/repo.sh
+- kubectl apply -f ./kubernetes-templating/
+
+## Как проверить работоспособность:
+- Например, перейти по ссылке 
+```bash
+https://*.<IP>.nip.io
+```
+
+## PR checklist:
+- [ ] Выставлен label с темой домашнего задания
+
+</details>
+
 ## [kubernetes-next-lesson](./)
 <details>
 <summary>Подробнее ...</summary>
