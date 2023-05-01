@@ -238,7 +238,30 @@ https://*.<IP>.nip.io
 ```
 
 ## PR checklist:
-- [ ] Выставлен label с темой домашнего задания
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-operators](./kubernetes-operators)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- Созданы манифесты для crd
+
+## Как запустить проект:
+- kubectl apply -f ./kubernetes-operators
+
+## Как проверить работоспособность:
+- kubectl get jobs 
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
 
 </details>
 
