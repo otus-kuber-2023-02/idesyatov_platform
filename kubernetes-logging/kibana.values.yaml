@@ -1,0 +1,20 @@
+tolerations:
+  - key: node-role
+    operator: Equal
+    value: infra
+    effect: NoSchedule
+nodeSelector:
+  yandex.cloud/node-group-id: catb99xiolwpvkkcrmjg
+
+ingress:
+  enabled: true
+  path: /
+  hosts:
+    - kibana.51.250.44.210.nip.io
+resources:
+  requests:
+    cpu: "500m"
+    memory: "1Gi"
+  limits:
+    cpu: "500m"
+    memory: "1Gi"
