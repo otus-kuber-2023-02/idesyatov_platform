@@ -285,6 +285,28 @@ https://*.<IP>.nip.io
 
 </details>
 
+## [kubernetes-gitops](./)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- Создан кластер черезв в yandex cloud
+- Создан проект gitlab.com для gitops практики
+- Выполнены основные задания
+
+## Как запустить проект:
+- kubectl apply -f ./kubernetes-gitops
+
+## PR checklist:
+- [ ] Выставлен label с темой домашнего задания
+
+</details>
+
 ## [kubernetes-next-lesson](./)
 <details>
 <summary>Подробнее ...</summary>
