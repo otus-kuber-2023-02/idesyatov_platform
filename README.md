@@ -317,7 +317,27 @@ https://*.<IP>.nip.io
 - [ ] Задание со *
 
 ## Как запустить проект:
-- - kubectl apply -f ./kubernetes-vault
+- kubectl apply -f ./kubernetes-vault
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-monitoring](./kubernetes-monitoring)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- Созданы манифесты для сервис мониторинга
+
+## Как запустить проект:
+- kubectl -f ./kubernetes-monitoring
 
 ## PR checklist:
 - [X] Выставлен label с темой домашнего задания
