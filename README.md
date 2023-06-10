@@ -246,7 +246,7 @@ https://*.<IP>.nip.io
 <details>
 <summary>Подробнее ...</summary>
 
-# Выполнено ДЗ №
+# Выполнено ДЗ № 8
 
 - [X] Основное ДЗ
 - [ ] Задание со *
@@ -269,7 +269,7 @@ https://*.<IP>.nip.io
 <details>
 <summary>Подробнее ...</summary>
 
-# Выполнено ДЗ №
+# Выполнено ДЗ № 9
 
 - [X] Основное ДЗ
 - [ ] Задание со *
@@ -285,11 +285,11 @@ https://*.<IP>.nip.io
 
 </details>
 
-## [kubernetes-gitops](./)
+## [kubernetes-gitops](./kubernetes-gitops)
 <details>
 <summary>Подробнее ...</summary>
 
-# Выполнено ДЗ №
+# Выполнено ДЗ № 10
 
 - [X] Основное ДЗ
 - [ ] Задание со *
@@ -303,7 +303,44 @@ https://*.<IP>.nip.io
 - kubectl apply -f ./kubernetes-gitops
 
 ## PR checklist:
-- [ ] Выставлен label с темой домашнего задания
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-vault](./kubernetes-vault)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## Как запустить проект:
+- kubectl apply -f ./kubernetes-vault
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-monitoring](./kubernetes-monitoring)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- Созданы манифесты для сервис мониторинга
+
+## Как запустить проект:
+- kubectl -f ./kubernetes-monitoring
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
 
 </details>
 
