@@ -344,6 +344,26 @@ https://*.<IP>.nip.io
 
 </details>
 
+## [kubernetes-storage](./kubernetes-storage)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- Созданы манифесты для csi
+
+## Как запустить проект:
+- kubectl -f ./kubernetes-monitoring
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
 ## [kubernetes-next-lesson](./)
 <details>
 <summary>Подробнее ...</summary>
