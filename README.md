@@ -357,7 +357,30 @@ https://*.<IP>.nip.io
 - Созданы манифесты для csi
 
 ## Как запустить проект:
-- kubectl -f ./kubernetes-monitoring
+- kubectl -f ./kubernetes-storage
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
+## [kubernetes-debug](./kubernetes-debug)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- Созданы манифесты для поиграться c процессами при помощи strace
+
+## Как запустить проект:
+- kubectl -f ./kubernetes-debug 
+
+## Как проверить работоспособность:
+- Например, перейти по ссылке http://localhost:8080
 
 ## PR checklist:
 - [X] Выставлен label с темой домашнего задания
