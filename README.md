@@ -387,6 +387,23 @@ https://*.<IP>.nip.io
 
 </details>
 
+## [kubernetes-prod](./kubernetes-prod)
+<details>
+<summary>Подробнее ...</summary>
+
+# Выполнено ДЗ №
+
+- [X] Основное ДЗ
+- [ ] Задание со *
+
+## В процессе сделано:
+- Собираем кластер с помощью kubeadm
+
+## PR checklist:
+- [X] Выставлен label с темой домашнего задания
+
+</details>
+
 ## [kubernetes-next-lesson](./)
 <details>
 <summary>Подробнее ...</summary>
